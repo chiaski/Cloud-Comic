@@ -31,3 +31,15 @@ body {
   transform: rotate(4deg);
   color: yellow;
 }
+
+
+@media only screen and (max-width: 800px) {
+
+  #nav a {
+    font-size: 1.5em;
+    margin: .5em;
+    display: inline-block;
+  }
+
+
+}
