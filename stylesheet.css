@@ -1,0 +1,33 @@
+body {
+  background-image: url(tile.png);
+  background-size: 5%;
+}
+
+#comic {
+  padding: 1em;
+  text-align: center;
+}
+
+#comic img {
+  width: 90vw;
+  max-width: 600px;
+  box-shadow: 0 0 20px #fff500;
+  margin: 0 auto;
+}
+
+#nav {
+  padding: 1em;
+}
+
+
+#nav a {
+  font-size: 2em;
+  margin: .5em;
+  display: inline-block;
+}
+
+#nav a:hover {
+  box-shadow: 0 0 20px #fff500;
+  transform: rotate(4deg);
+  color: yellow;
+}
